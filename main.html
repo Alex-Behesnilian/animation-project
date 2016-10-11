@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<title>
+			Project: Animated Art
+		</title>
+	</head>
+	<body>
+	
+		<center><h1>Project: Animated Art</h1></center>
+		
+		<center>
+			<svg width="700" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+			
+				<rect x="410" y="10" width="30" height="30" stroke="blue" fill="transparent" stroke-width="5">
+					<animate attributeName="x" from="50" to="700" begin="mouseover" dur="10s"/>
+					<animate attributeName="y" from="150" to="150" begin="mouseover" dur="0s"/>
+				</rect>
+				
+				<rect x="250" y="10" rx="10" ry="10" width="30" height="30" stroke="white" fill="transparent" stroke-width="5">
+					<animate attributeName="y" from="10" to="180" begin="click" dur="5s"/>
+				</rect>
+				
+				<ellipse cx="300" cy="105" rx="20" ry="10" stroke="red" fill="transparent" stroke-width="5">
+					<animate attributeName="cx" from="300" to="320" dur="5s" repeatCount="indefinite"/>
+				</ellipse>
+				
+				<ellipse cx="380" cy="105" rx="20" ry="10" stroke="red" fill="transparent" stroke-width="5">
+					<animate attributeName="cx" from="380" to="360" dur="5s" repeatCount="indefinite"/>
+				</ellipse>
+				
+				<line x1="305" x2="350" y1="125" y2="125" stroke="red" fill="transparent" stroke-width="5">
+					<animate attributeName="x1" from="305" to="255" dur="5s" repeatCount="indefinite"/>
+				</line>
+			
+				<circle cx="340" cy="105" r="50" stroke="red" fill-opacity="0.5" stroke-width="5"/>
+			</svg>
+			
+			<br/>
+			My SVG Masterpiece depicts a "Pinocchio" in a magical land where shapes roam around as they please. 
+			<br/>
+			I was inspired to make this masterpiece because I want to get better at programming and decided to try out different shapes
+			and see what I <br/>was able to do with basic SVG animations. My original intention was not to make Pinocchio, but after 
+			putting all the shapes together thats what it resembled.
+			
+		</center>
+	</body>
+</html>

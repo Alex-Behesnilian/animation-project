@@ -1,0 +1,15 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+
+body { 
+	font-family: 'Oswald', sans-serif;
+	background-color: #D6FFFD;
+	color: #6A00E3;
+}
+
+h1 {
+	border-style: solid;
+}
+
+svg {
+  background-image: url("sprites/background.png");
+}
